@@ -1,0 +1,63 @@
+.welcome-container-text{
+    clip-path: polygon(100% 0, 86% 55%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+    background-color:#A5B61A;
+    height: 30%;
+    width: 40%;
+    padding: 1% 1% 2% 2%;
+    z-index: index 1;
+    position: absolute;
+}
+
+.welcome-container-text2{
+    clip-path: polygon(68% 0, 86% 55%, 100% 100%, 0 100%, 0 49%, 0 0);
+    background-color:#000;
+    height: 34%;
+    width: 40%;
+    padding: 1% 1% 2% 2%;
+    z-index: index -1;
+    position: absolute;
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: local("Staatliches"),
+    local("Staatliches-Regular"),
+    url(Staatliches-Regular.ttf);
+    font-weight: bold;
+  }
+
+.logo{
+    background-image: url("../portafolio/img/logonegro.png");
+	height: 20%; 
+	background-position: left; 
+	background-repeat: no-repeat;
+    margin: 2% 0% 2% 0%;
+    background-size: contain;
+}
+
+body{
+    font-family: Staatliches;
+}
+
+nav{
+    position: absolute;
+    margin: 2% 10%;
+    word-spacing: 2vw;
+}
+
+.welcome {
+        display: flex;
+        justify-content: center;
+        font-size: 59px;
+        margin: 0;
+}
+
+.presentation { 
+    font-size: 26px;
+
+}
+
+.text-welcome{
+   width: 70%;
+   height: 70%;
+
