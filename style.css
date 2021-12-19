@@ -1,130 +1,165 @@
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        /*.firstpage {
-    /**background-image: url(../portafolio/img/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;**/
-        
-        .welcome-container-text {
-            clip-path: polygon(100% 0, 86% 55%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
-            background-color: #A5B61A;
-            height: 30%;
-            width: 40%;
-            padding: 1% 1% 2% 2%;
-            z-index: index 1;
-            position: absolute;
-        }
-        
-        .welcome-container-text2 {
-            clip-path: polygon(68% 0, 86% 55%, 100% 100%, 0 100%, 0 49%, 0 0);
-            background-color: #000;
-            height: 34%;
-            width: 40%;
-            padding: 1% 1% 2% 2%;
-            z-index: index -1;
-            position: absolute;
-        }
-        
-        @font-face {
-            font-family: Staatliches;
-            src: local("Staatliches"), local("Staatliches-Regular"), url(Staatliches-Regular.ttf);
-            font-weight: bold;
-        }
-        
-        .logo {
-            background-image: url("../portafolio/img/logonegro.png");
-            height: 20%;
-            background-position: left;
-            background-repeat: no-repeat;
-            margin: 2% 0% 2% 0%;
-            background-size: contain;
-        }
-        
-        body {
-            font-family: Staatliches;
-        }
-        
-        nav {
-            position: absolute;
-            margin: 2% 10%;
-            word-spacing: 2vw;
-        }
-        
-        .welcome {
-            display: flex;
-            justify-content: center;
-            font-size: 59px;
-            margin: 0;
-        }
-        
-        .presentation {
-            font-size: 26px;
-        }
-        
-        .text-welcome {
-            width: 70%;
-            height: 70%;
-        }
-        
-        .foto {
-            background-image: url(img/seisi.png);
-            height: 55%;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: right;
-            margin: 10% 0px 0px 0px;
-            border-bottom: solid 20px;
-        }
-        
-        .snake-container {
-            background-image: url(img/snake.png);
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 100%;
-            background-position: center;
-        }
-        
-        .skills-frontend-container,
-        .skills-backend-container,
-        .skills-socialmedia-container {
-            clip-path: polygon(100% -2px, 100.37% 123px, 100% 100%, 0% 100%, 1px 34.55%, 127px 18.29%);
-            background-color: black;
-            height: 38%;
-            width: 14%;
-            z-index: index -1;
-            position: absolute;
-        }
-        
-        .skills-frontend-container-2,
-        .skills-backend-container-2,
-        .skills-socialmedia-container-2 {
-            clip-path: polygon(100% 0px, 100% 149px, 100% 100%, 0% 99.67%, 0px 50%, 0px 0.86%);
-            background-color: #A5B61A;
-            height: 38%;
-            width: 14%;
-            z-index: index 1;
-            position: absolute;
-        }
-        
-        .frontend-text {
-            color: blanchedalmond;
-            padding-top: 42%;
-            padding-left: 7%;
-        }
-        
-        h3 {
-            display: flex;
-            justify-content: center;
-        }
-        
-        .title-skills {
-            padding-left: 7%;
-            font-size: 44px;
-        }
-        
-        section {
-            display: flex;
-            justify-content: space-around;
-        }
+* {
+    margin: 0;
+    padding: 0;
+}
+.firstpage {
+    background-image: url(img/background-a.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.welcome-container-text {
+    clip-path: polygon(100% 0, 86% 55%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
+    background-color: #A5B61A;
+    height: 30%;
+    width: 40%;
+    padding: 1% 1% 2% 2%;
+    z-index: index 1;
+    position: absolute;
+}
+
+.welcome-container-text2 {
+    clip-path: polygon(68% 0, 86% 55%, 100% 100%, 0 100%, 0 49%, 0 0);
+    background-color: #000;
+    height: 34%;
+    width: 40%;
+    padding: 1% 1% 2% 2%;
+    z-index: index -1;
+    position: absolute;
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: local("Staatliches"), local("Staatliches-Regular"), url(Staatliches-Regular.ttf);
+    font-weight: bold;
+}
+
+.logo {
+    background-image: url("img/logonegro.png");
+    height: 20%;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 2% 0% 5% 2%;
+    background-size: contain;
+}
+
+body {
+    font-family: Staatliches;
+}
+
+nav {
+    position: absolute;
+    margin: 2% 10%;
+    word-spacing: 2vw;
+    z-index: 60;
+    top: 5%;
+    font-size: 1.5em;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    font-size: 59px;
+    margin: 0;
+}
+
+.presentation {
+    font-size: 26px;
+}
+
+.text-welcome {
+    width: 70%;
+    height: 70%;
+}
+
+.foto {
+    background-image: url(img/seisi.png);
+    height: 55%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 10% 0px 0px 0px;
+    border-bottom: solid 5px;
+    z-index: 30;
+    
+}
+
+#snake-container {
+    background-image: url(img/snake.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500%;
+    background-position: center;
+    z-index: 50;
+    position: relative;
+    margin: 0% 0% 0% 40%;
+    transform: rotate(30deg);
+    top: -40px;
+}
+
+.skills-frontend-container,
+.skills-backend-container,
+.skills-socialmedia-container {
+    clip-path: polygon(100% -2px, 100.37% 123px, 100% 100%, 0% 100%, 1px 34.55%, 127px 18.29%);
+    background-color: black;
+    height: 38%;
+    width: 14%;
+    z-index: index -1;
+    position: absolute;
+}
+
+.skills-frontend-container-2,
+.skills-backend-container-2,
+.skills-socialmedia-container-2 {
+    clip-path: polygon(100% 0px, 100% 149px, 100% 100%, 0% 99.67%, 0px 50%, 0px 0.86%);
+    background-color: #A5B61A;
+    height: 38%;
+    width: 14%;
+    z-index: index 1;
+    position: absolute;
+}
+
+.frontend-text {
+    color: blanchedalmond;
+    padding-top: 42%;
+    padding-left: 7%;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.title-skills {
+    padding-left: 7%;
+    font-size: 44px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #000;
+}
+
+.skills{
+    background-color: aqua;
+    height: 70%;
+    display: block;
+}
+
+.projects{
+    background-color: #A5B61A;
+    height: 70%;
+    display: block;    
+}
+
+.contact{
+    background-color: #d3692b;
+    height: 70%;
+    display: block; 
+}
