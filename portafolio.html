@@ -1,111 +1,139 @@
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="img/favicon.ico">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
-<body>
-    <div class="firstpage">
-    <header class="logo">
-        <div id="snake-container"></div>
-        <nav>
-            <a href="#" alt="skills">Skills</a>
-            <a href="#" alt="portfolio">Portfolio</a>
-            <a href="#" alt="Contact">Contact</a>
-        </nav>
-    </header>
-    
-        <div class="welcome-container">
-        </div>
-        <div class="welcome-container-text2"></div>
-        <div class="welcome-container-text">
-            <div class="text-welcome">
-                <p class="welcome">WELCOME!</p>
-                <p class="presentation">My name is Valeria Ziegler, i’m a web devoloper experience in front end based in bogota , colombia</p>
-            </div>
-        </div>
-        <div class="me-container">
-            <div class="foto"></div></div>
-        </div>
+<body class="css-selector" >
+  
+<div class="firstpage">
+  <header class="logo" id="top">
+    <nav> <a href="#skills" alt="skills">Skills</a> <a href="#portfolio" alt="portfolio">Portfolio</a> <a href="#contact" alt="Contact">Contact</a> </nav>
+  </header>
+  <div class="piezas-container">
+  
+  <div class="welcome-container"></div>
+  <div class="welcome-container-text2"></div>
+  <div class="welcome-container-text">
+    <div class="text-welcome">
+      <p class="welcome">WELCOME!</p>
+      <p class="presentation">My name is Valeria Ziegler, i&#39;m a web devoloper experience in front end based in bogota , colombia</p>
     </div>
-    <container class="skills">
+  </div>
+  </div>
+<div class="foto"></div>
+</div>
+<div id="skills" class="skills">
     <h3>Skills</h3>
     <section>
-        <div>
-            <div class="skills-frontend-container-2">
-                <p class="title-skills">Frontend</p>
-            </div>
-            <div class="skills-frontend-container">
-                <div>
-                    <p class="frontend-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis tempore alias, harum incidunt saepe esse eveniet, molestias distinctio placeat a omnis officia aut sapiente pariatur. Illum officiis adipisci sed.</p>
-                </div>
-            </div>
+      
+      <div class="skills1">
+        <div class="skills-frontend-container-2">
+          <p class="title-skills">Frontend</p>
         </div>
-        <div class="space-around">
-            <div class="skills-backend-container-2">
-                <p class="title-skills">Backend</p>
-            </div>
-            <div class="skills-backend-container">
-                <div>
-                    <p class="frontend-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis tempore alias, harum incidunt saepe esse eveniet, molestias distinctio placeat a omnis officia aut sapiente pariatur. Illum officiis adipisci sed.</p>
-                </div>
-            </div>
+        <div class="skills-frontend-container">
+          <div>
+            <p class="frontend-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis tempore alias, harum incidunt saepe esse eveniet, molestias distinctio placeat a omnis officia aut sapiente pariatur. Illum officiis adipisci sed.</p>
+          </div>
         </div>
-        <div class="space-around2">
-            <div class="skills-socialmedia-container-2">
-                <p class="title-skills">Social media</p>
-            </div>
-            <div class="skills-socialmedia-container">
-                <div class="frontend-text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis tempore alias, harum incidunt saepe esse eveniet, molestias distinctio placeat a omnis officia aut sapiente pariatur. Illum officiis adipisci sed.</p>
-                </div>
-            </div>
+      </div>
+      <div class="skills2">
+        <div class="skills-backend-container-2">
+          <p class="title-skills">Backend</p>
         </div>
+        <div class="skills-backend-container">
+          <div>
+            <p class="frontend-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis tempore alias, harum incidunt saepe esse eveniet, molestias distinctio placeat a omnis officia aut sapiente pariatur. Illum officiis adipisci sed.</p>
+          </div>
+        </div>
+      </div>
+      <div class="skills3">
+        <div class="skills-socialmedia-container-2">
+          <p class="title-skills">Social <br> media</p>
+        </div>
+        <div class="skills-socialmedia-container">
+          <div class="frontend-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis tempore alias, harum incidunt saepe esse eveniet, molestias distinctio placeat a omnis officia aut sapiente pariatur. Illum officiis adipisci sed.</p>
+          </div>
+        </div>
+      </div>
     </section>
-</container>
-    <article class="projects">
-        <h3>Projects</h3>
-        <div class="projects-web-container">
-            <p>Web desing</p>
-            <p>Tributo Responsive web made in html and css</p>
-            <p>https://optimistic-murdock-c4b876.netlify.app/</p>
+</div>
+  <container id="portfolio" >
+    <h3>Projects</h3>
+    <section>
+      <div class="container-proyecto">
+        <div class="projects-col1-frontend-container-2">
+          <p class="title-projects-col1">Web desing</p>
         </div>
-        <div class="projects-web-container">
-            <p>Tetris Game</p>
-            <p>Tetris game web made with html, css and javascript</p>
-            <p>https://ourainbows.github.io/tetris-game/</p>
+        <div class="projects-col1-frontend-container">
+          <div class="proyect-text">
+            <p >Tributo<br>
+              Responsive web<br>
+              made in html and css <br>
+              <a href="https://optimistic-murdock-c4b876.netlify.app">See it in here!</a></p>
+          </div>
         </div>
-    </article>
-    <div class="contact">
-    <form action="" id="" method="post">
-        <ul>
-            <li>
-                <label for="name">Full name:</label>
-                <input type="text" id="name" placeholder="Full name" name="user_name">
-            </li>
-            <li>
-                <label for="mail">Email:</label>
-                <input type="email" id="mail" placeholder="Youremail@here.com" name="user_mail">
-            </li>
-            <li>
-                <label for="msg">Message:</label>
-                <textarea id="msg" placeholder="Message" name="user_message"></textarea>
-            </li>
-            <li class="button">
-                <button type="submit">Envíe su mensaje</button>
-            </li>
-        </ul>
-    </form>
-    <div>
-        <p>Email: valeriaziegler21@gmail.com </p>
-        <p> Phone: +57 3505195162</p>
-    </div>
+      </div>
+        <div class="container-proyecto2">
+        <div class="projects-col2-socialmedia-container-2">
+          <p class="title-projects-col2">Tetris Game</p>
+        </div>
+        <div class="projects-col2-socialmedia-container">
+          <div class="proyect-text2"> 
+            <p>Tetris game web<br>
+              made with html <br>css and javascript <br>
+              <a href="https://ourainbows.github.io/tetris-game">See it here!</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </container>
+  <div id="contact">
+    <div class="contact-container" ></div>
+    <div class="contact-container-text2"></div>
+    <div class="contact-container-text">
+      <div class="text-welcome">
+        <p class="welcome">CONTACT ME!</p>
+        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" class="css-input input-size" name="name" id="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="col-md-12"> 
+              <div class="form-group">
+                <input type="email" class="css-input input-size" name="email" id="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea name="message" class="css-input input-size" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="MyButton btn btn-primary">
+                <div class="submitting"></div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="me-container">
+          <p class="presentation">Email: <a href="mailto:valeriaziegler21@gmail.com">valeriaziegler21@gmail.com</a> <br>
+            Phone: <a href="tel:+57 350 519 5162">+57 350 519 5162</a></p>
+        </div>
+      </div>
+    </div><div id="snake-container"></div>
+  </div>
+<p class="footer">Develop by Valeria Ziegler - 2021</p>
 </div>
 </body>
-
 </html>
