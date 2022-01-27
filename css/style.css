@@ -14,7 +14,7 @@ html {
 }
 @font-face {
   font-family: Staatliches;
-  src: local("Staatliches"), local("Staatliches-Regular"), url(Staatliches-Regular.ttf);
+  src: local("Staatliches"), local("Staatliches-Regular");
   font-weight: bold;
 }
 body {
