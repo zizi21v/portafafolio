@@ -14,7 +14,7 @@ html {
 }
 @font-face {
   font-family: Staatliches;
-  src: local("Staatliches"), local("Staatliches-Regular");
+  src: local("Staatliches"), local("Staatliches-Regular"), url(Staatliches-Regular.ttf);
   font-weight: bold;
 }
 body {
@@ -196,7 +196,7 @@ nav {
   color: blanchedalmond;
   font-size: 1.8em;
   text-align: justify;
-  padding: 45% 5% 0% 4%;
+  padding: 47% 5% 0% 4%;
 }
 .proyect-text {
   color: rgb(0, 0, 0);
