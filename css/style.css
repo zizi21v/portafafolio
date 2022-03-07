@@ -6,6 +6,9 @@ html {
 
   scroll-behavior: smooth;
 }
+a {
+  color: #000;
+}
 :root{
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -63,28 +66,32 @@ nav {
   position: absolute;
 }
 .text-welcome {
-  width: 70%;
+  width: 80%;
   height: 70%;
 }
 
 .welcome {
   display: flex;
   justify-content: center;
-  font-size: 4em;
+  font-size: 3.5em;
   margin: 0;
 }
-.presentation {
+.presentation1 {
   font-size: 2em;
 }
+.presentation {
+  font-size: 1.5em;
+}
+
+
 .foto {
   background-image: url(../img/seisi.png);
-  height: 100%;
+  height: 80%;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
   margin: -15% 0px 0px 0px;
   z-index: 30;
-
   -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -106,7 +113,7 @@ nav {
 .contact-container-text {
   clip-path: polygon(100% 0, 86% 55%, 75% 100%, 0% 100%, 0 49%, 0% 0%);
   background-color: #fafafa;
-  height: 70%;
+  height: 72%;
   width: 50%;
   padding: 1% 1% 2% 2%;
   z-index: index 1;
@@ -137,7 +144,7 @@ nav {
 .skills-frontend-container, .skills-backend-container, .skills-socialmedia-container {
   clip-path: polygon(100% -2px, 100% 100%, 0% 100%, 0px 34.55%);
   background-color: black;
-  height: 72%;
+  height: 60%;
   width: 25%;
   z-index: index -1;
   position: absolute;
@@ -176,7 +183,7 @@ nav {
 .projects-col2-frontend-container, .projects-col2-backend-container, .projects-col2-socialmedia-container {
   clip-path: polygon(100% 85px, 100% 100%, 0% 100%, 10% 52%, 18% 30%);
   background-color: #000;
-  height: 68%;
+  height: 70%;
   width: 35%;
   z-index: 90;
   position: absolute;
@@ -185,7 +192,7 @@ nav {
 .projects-col2-frontend-container-2, .projects-col2-backend-container-2, .projects-col2-socialmedia-container-2 {
   clip-path: polygon(100% 0px, 100% 150px, 100% 100%, 10% 100%, 2px -0.5%);
   background-color: #000;
-  height: 35%;
+  height: 37%;
   width: 35%;
   z-index: 80;
   position: absolute;
@@ -195,18 +202,17 @@ nav {
 .frontend-text {
   color: blanchedalmond;
   font-size: 1.8em;
-  text-align: justify;
   padding: 47% 5% 0% 4%;
 }
 .proyect-text {
   color: rgb(0, 0, 0);
-  font-size: 3.3em;
+  font-size: 3em;
   text-align: justify;
   padding: 28% 7% 0% 4%;
 }
 .proyect-text2 {
   color: rgb(255, 255, 255);
-  font-size: 3.1em;
+  font-size: 3em;
   text-align: right;
   padding: 31% 5% 0% 7%;
 }
@@ -219,7 +225,7 @@ h3 {
 }
 .title-skills {
   padding: 0% 0% 0% 1%;
-  font-size: 3.2em;
+  font-size: 3.1em;
   color: #000;
 }
 .title-skills1 {
@@ -322,6 +328,7 @@ section {
 	position:relative;
 	top:1px;
 }
+
 .css-input {
   padding: 5px;
   font-size: 16px;
@@ -360,7 +367,7 @@ section {
   
 }
 
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1174px) {
   .welcome-container-text {
     height: 30%;
     width: 60%;
@@ -368,6 +375,17 @@ section {
 .contact-container {
   margin-top: 66%;
 }  
+.title-skills {
+  padding: 0% 0% 0% 1%;
+  font-size: 2.8em;
+  color: #000;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5em;
+  margin: 0;
+}
 nav {
   position: absolute;
   margin: 2% 16%;
@@ -428,6 +446,11 @@ h3 {
   font-size: 5vw;
   
 }
+.presentation1 {
+  font-size: 1.5em;
+}
+.foto {
+  height: 65%;}
 .frontend-text {
   color: blanchedalmond;
   font-size: 1.7em;
